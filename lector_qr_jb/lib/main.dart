@@ -3,7 +3,9 @@ import 'package:lector_qr_jb/home/screens/home_screen.dart';
 import 'package:lector_qr_jb/nfc/screens/nfc_screen.dart';
 import 'package:lector_qr_jb/qr/screens/qr_screen.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  runApp(MyApp());
+}
 
 class MyApp extends StatefulWidget {
   @override
